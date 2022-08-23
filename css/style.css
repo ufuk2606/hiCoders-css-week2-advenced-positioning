@@ -1,0 +1,112 @@
+/****** ANA BÖLÜMÜ ******/
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: #dcb8fe;
+  margin: 20px auto;
+  border: 1px solid;
+}
+/****** KAFA BÖLÜMÜ ******/
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: #f5d7cf;
+  margin: 70px auto 0px;
+  border: 1px solid;
+  border-radius: 50%;
+  position: relative;
+}
+/****** GÖZ BÖLÜMÜ ******/
+.goz {
+  display: flex;
+}
+.goz1 {
+  width: 50px;
+  height: 50px;
+  background-color: #c3a7a3;
+  border-radius: 50%;
+  position: relative;
+  top: 75px;
+  left: 50px;
+}
+.goz2 {
+  top: 75px;
+  left: 150px;
+}
+.gozort {
+  width: 46px;
+  height: 46px;
+  background-color: #f5d7cf;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+.gozici {
+  width: 13px;
+  height: 13px;
+  background-color: #49261c;
+  border-radius: 50%;
+  position: relative;
+  top: 21px;
+}
+/****** BURUN BÖLÜMÜ ******/
+.brn-ykr {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #c3a7a3;
+  position: relative;
+  top: 80px;
+  left: 125px;
+}
+.brn-asg {
+  width: 50px;
+  height: 10px;
+  background-color: #c3a7a3;
+  position: relative;
+  top: 80px;
+  left: 125px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+/****** AGIZ BÖLÜMÜ ******/
+.agz {
+  width: 100px;
+  height: 30px;
+  background-color: #c3a7a3;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.ust {
+  height: 20px;
+  background-color: #f5d7cf;
+  top: 0;
+  left: 0;
+}
+/****** PAPYON BÖLÜMÜ ******/
+.box2 {
+  width: 120px;
+  height: 30px;
+  border: 1px solid;
+  position: relative;
+  left: 190px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: relative;
+  left: 10px;
+}
+.triangle-up {
+  border-bottom: 15px solid #a5080a;
+}
+.triangle-down {
+  border-top: 15px solid #a5080a;
+}
